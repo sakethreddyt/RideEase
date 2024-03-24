@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://assets.cntraveller.in/photos/60ba122d2f255d2ff212b23e/16:9/w_1280,c_limit/GoaMiles1.jpg);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecf0f1;
+}
+
+.container {
+    background-color: #f9f9ef;
+    padding: 30px;
+    border-radius: 5px;
+    height: 350px;
+    width: 300px;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s; /* Add transition for smoother effect */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4CAF50; /* Initial label color */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+
+#login-form:hover {
+    background-color: #f9f9f9; /* Change background color on hover */
+}
+/* 
+#login-form:hover label {
+    color: #45a049; /* Change label color on hover */
+ */
+
+#login-form:hover input[type="text"],
+#login-form:hover input[type="password"] {
+    border-color: #45a049; /* Change input border color on hover */
+}
+
+#login-form:hover button[type="submit"] {
+    background-color: #45a049; /* Change button background color on hover */
+}
+
+
